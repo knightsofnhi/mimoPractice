@@ -1,5 +1,10 @@
-function button(
-    
-)
+class Comment {
+    constructor (name, comment) {
+        this.name = name;
+        this.comment = comment;
+    }
+}
 
-document.getElementById("submit").innerHTML("answer");
+var fan = new Fan("Margaret", "Knight");
+
+console.log(fan);
